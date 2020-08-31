@@ -235,7 +235,7 @@ section{
 .skills{
     margin-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .skill{
@@ -244,7 +244,7 @@ section{
 }
 .skill-info{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 section.dark{
