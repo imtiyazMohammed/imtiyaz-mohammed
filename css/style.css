@@ -246,43 +246,6 @@ section{
     display: flex;
     justify-content: space-between;
 }
-.skill-bar{
-    height: 3px;
-    background-color: #ddd;
-    margin-top: 14px;
-    position: relative;
-}
-.skill-bar::after{
-    content: "";
-    position: absolute;
-    height: 6px;
-    background-color: #48dbfb;
-    bottom: 0;
-}
-.java::after{
-    width: 90%;
-}
-.javascript::after{
-    width: 70%;
-}
-.html::after{
-    width: 85%;
-}
-.css::after{
-    width: 68%;
-}
-.c::after{
-    width: 92%;
-}
-.mongodb::after{
-    width: 60%;
-}
-.ds::after{
-    width: 78%;
-}
-.algo::after{
-    width: 70%;
-}
 
 section.dark{
     background-color: #353b48;
