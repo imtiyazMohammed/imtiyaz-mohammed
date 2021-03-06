@@ -18,6 +18,13 @@ html{
 ::-webkit-scrollbar-thumb{
     background-color: #353b48;
 }
+.about-pic{
+    filter:grayscale(100%);
+    transition: filter 0.5s;
+}
+.about-pic:hover{
+    filter:grayscale(0);
+}
 .navbar{
     position: fixed;
     background-color: transparent;
